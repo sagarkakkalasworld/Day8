@@ -3,7 +3,7 @@ sudo docker rmi -f $(sudo docker images -q) ##this is not recommned step, i am d
 sudo rm -r gold ## these steps are not recommened instead you can modify script as shown below
 sudo mkdir gold
 cd gold/
-sudo git clone https://github.com/sagarkakkalasworld/Day7.git
+sudo git clone https://github.com/sagarkakkalasworld/Day8.git
 cd Day7/Code
 sudo docker build -t react-microk8s -f golddockerfile .
 sudo docker tag react-microk8s:latest sagarkakkalasworld/react-microk8s:latest ##make sure you did docker login
