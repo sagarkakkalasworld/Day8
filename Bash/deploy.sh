@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ubuntu/react-chart/
-helm upgrade react-chart .
+cd /home/ubuntu/bashscripts/Day8/react-helmcharts/
+helm upgrade react-helmcharts .
 
