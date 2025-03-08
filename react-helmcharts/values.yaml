@@ -71,8 +71,8 @@ ingress:
           pathType: Prefix
   tls: 
     - secretName: sk-ssl
-       hosts:
-         - www.sagarkakkala.shop
+      hosts:
+        - www.sagarkakkala.shop
 
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
