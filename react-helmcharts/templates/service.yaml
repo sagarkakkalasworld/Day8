@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ include "react-helmcharts.fullname" . }}
+  namespace: {{ .Values.namespace }}
   labels:
     {{- include "react-helmcharts.labels" . | nindent 4 }}
 spec:
